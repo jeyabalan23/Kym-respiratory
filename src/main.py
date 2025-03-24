@@ -14,7 +14,7 @@ if st.button("Generate Report"):
         st.write("🔄 Processing... Please wait.")
         
         # Initialize Orchestrator
-        orchestrator = Orchestrator("../data/knowYourAi - Company Details.csv")
+        orchestrator = Orchestrator("./data/knowYourAi - Company Details.csv")
         
         # Run the orchestrator and get the result
         result = orchestrator.run(company_name)
