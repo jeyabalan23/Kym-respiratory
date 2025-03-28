@@ -47,7 +47,7 @@ if st.button("Generate Report"):
         else:
             st.error(f"⚠️ No data found for {company_name}. Please check the spelling or update the dataset.")
     else:
-#         st.warning("⚠️ Please enter a company name.")
+      st.warning("⚠️ Please enter a company name.")
 
 # import streamlit as st
 # import requests
